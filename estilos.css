@@ -18,3 +18,7 @@ header h1
 	font-size: 18px;
 	font-weight: normal;
 }
+header #logo img
+{
+	width: 52px;
+}
