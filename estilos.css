@@ -25,6 +25,7 @@ header h1
 	font-size: 1.2em;
 	font-weight: normal;
 	margin: 0 70px 0 0;
+	border: 1px solid red;
 }
 header #logo img
 {
@@ -32,10 +33,10 @@ header #logo img
 	padding-right: 0.5em;
 	margin-right: 0.5em;
 	width: 52px;
-	
 }
 header #avatar img
 {
 	border-radius: 20%;
 	width: 55px;
+	margin-top: -55px;
 }
