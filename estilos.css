@@ -13,6 +13,7 @@ header
 	background: #343B54;
 	color: white;
 	padding: 0.5em;
+	overflow: hidden;
 }
 header figure
 {
