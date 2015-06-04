@@ -47,3 +47,25 @@ header #avatar
 	right: 0;
 	top: 0;
 }
+nav
+{
+	background: #80BCA3;
+	padding: 0 0.5em;
+}
+nav ul
+{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+nav ul li
+{
+	display: inline-block;
+	margin: 0 1.2em 0 0;
+}
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.3em 0;
+}
