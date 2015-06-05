@@ -8,6 +8,30 @@ body
 	font-family: "Arial";
 	font-size: 16px;
 }
+footer
+{
+	color: rgba(255,255,255,0.7);
+	background: #22BCE0;
+	text-align: center;
+	padding: 1em;
+}
+<!--pseudo clases-->
+footer p:first-child
+{
+	margin-bottom: 0;
+}
+footer p:last-child
+{
+	margin-top: 0;
+}
+footer p:last-child:after
+{
+	content: "- ";
+}
+footer p:last-child:before
+{
+	content: " -";
+}
 header
 {
 	background: #343B54;
@@ -79,11 +103,86 @@ nav ul #publicar_nav
 nav ul #publicar_nav a
 {
 	background: #22BCE0;
-	padding: 0.5em;
-	border-radius: 0.2em;
+	padding: 0.4em;
+	border-radius: 0.4em;
 	text-decoration: none;
 	font-style: italic;
+	<!--
+	a significa alfa o transparencia de 0 a 1.
+	(1)2px direccion de sombra a los lados.
+	(2)2px direccion de sobra verticales.
+	(3)5px que tan difuminada la sobra.
+	-->
 	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
 	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
 
+}
+#contenido
+{
+	margin: 1em;
+}
+#contenido .item
+{
+	background: white;
+	border-bottom: 3px solid #22BCE0;
+	min-height: 128px;
+	position: relative;
+	margin-bottom: 3em;
+}
+#contenido .item .imagen_item
+{
+	float: left;
+	margin: 0 1em 0 0;
+}
+#contenido .item .imagen_item img
+{
+	width: 96px;
+}
+#contenido .item .titulo_item
+{
+	font-size: 1.2em;
+	font-style: italic;
+}
+#contenido .item .titulo_item a
+{
+	color: #444;
+	text-decoration: none;
+}
+#contenido .item .autor_item
+{
+	color: #AAA;
+}
+#contenido .item .datos_item
+{
+	margin: 1em 1em 0 0;
+	text-align: right;
+}
+#contenido .item .datos_item .fecha_item
+{
+	color: #AAA;
+}
+#contenido .item .datos_item .tag_item
+{
+	background: #F4502A;
+	color:white;
+	float: left;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.2em 0.5em;
+	border-radius: 1em;
+}
+#contenido .item .votacion
+{
+	background: white;
+	border-radius: 0 0 0.5em 0.5em;
+	position: absolute;
+	left: 5%;
+	margin-top: 3px;
+	padding: 0.2em 0.5em;
+	top: 100%;
+	width: 90%
+}
+#contenido .item .votacion .comentarios_item
+{
+	
 }
