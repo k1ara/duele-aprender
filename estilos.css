@@ -57,7 +57,7 @@ header #logo img
 	border-right: 1px solid white;
 	padding-right: 0.5em;
 	margin-right: 0.5em;
-	width: 52px;
+	width: 100px;
 }
 header #avatar img
 {
@@ -142,6 +142,7 @@ nav ul #publicar_nav a
 {
 	font-size: 1.2em;
 	font-style: italic;
+	padding: 1em 1em 0 0;
 }
 #contenido .item .titulo_item a
 {
@@ -154,7 +155,7 @@ nav ul #publicar_nav a
 }
 #contenido .item .datos_item
 {
-	margin: 1em 1em 0 0;
+	margin: 1em 1em 0.5em 0;
 	text-align: right;
 }
 #contenido .item .datos_item .fecha_item
@@ -175,14 +176,15 @@ nav ul #publicar_nav a
 {
 	background: white;
 	border-radius: 0 0 0.5em 0.5em;
-	position: absolute;
-	left: 5%;
+	left: 4%;
 	margin-top: 3px;
 	padding: 0.2em 0.5em;
+	position: absolute;
 	top: 100%;
 	width: 90%
 }
-#contenido .item .votacion .comentarios_item
+#contenido .item .votacion .comentarios_item,
+#contenido .item .votacion .guardar_item
 {
-	
+	float: right;
 }
