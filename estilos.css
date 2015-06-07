@@ -10,12 +10,12 @@ body
 }
 footer
 {
-	color: rgba(255,255,255,0.7);
 	background: #22BCE0;
-	text-align: center;
+	color: rgba(255,255,255,0.7);
 	padding: 1em;
+	text-align: center;	
 }
-<!--pseudo clases-->
+/*pseudo clases*/
 footer p:first-child
 {
 	margin-bottom: 0;
@@ -107,12 +107,12 @@ nav ul #publicar_nav a
 	border-radius: 0.4em;
 	text-decoration: none;
 	font-style: italic;
-	<!--
+	/*
 	a significa alfa o transparencia de 0 a 1.
 	(1)2px direccion de sombra a los lados.
 	(2)2px direccion de sobra verticales.
 	(3)5px que tan difuminada la sobra.
-	-->
+	*/
 	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
 	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
 
