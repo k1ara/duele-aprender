@@ -1,0 +1,100 @@
+/*h3 #enlaces {
+  width: 600 px;
+  height: 504 px;
+  padding: 0px;
+  background: url(dog.jpg) top left no-repeat;
+}
+h3 span {
+  visibility: hidden;
+}*/
+
+body 
+{
+    text-align: center;
+}
+#header
+{
+	background: url(imagenes/dog.jpg) top left no-repeat;
+	width: 600px;
+	height: 504px;
+	margin: 0px;
+	padding:0px;
+}
+#header a
+{
+	width: 600px;
+	height: 400px;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	border: 1px solid red;
+}
+#header h2
+{
+	border: 1px solid red;
+}
+#header h1
+{
+	margin: 0px;
+}
+#header a span
+{
+	visibility: hidden;
+}
+
+#container {
+	border: 1px solid red;
+    width: 700px;
+    margin: 0px auto;
+    text-align: left;
+}
+#menu {
+	border: 1px solid red;
+    width: 200px;
+    padding: 10px;
+    float: left;
+}
+#main {
+	border: 1px solid red;
+    margin-left: 225px;
+    margin-right: 5px;
+    word-wrap:break-word;
+}
+#footer {
+	border: 1px solid red;
+    clear: both;
+}
+/*práctica de listas*/
+ul
+{
+	padding-left: 1px;
+	margin-left: 5px;
+	list-style-type: none;
+}
+#menu ul li
+{
+	border: 1px solid red;
+	padding-left: 20px;
+	width: 80px;
+	background: url(imagenes/bullet_right1.gif) 0 0.3em no-repeat;
+	margin-bottom: 0.2em;
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+	background-color: #666;
+} 
+/*práctica de menú css*/
+#menu ul li a
+{
+	color:#ccc;
+	text-decoration: none;
+	display: block;
+	padding: 5px 5px 5px 5px;
+}
+#menu ul li a:hover
+{
+	background: #000;
+	border-left: 10px solid #333;
+	color: #fff;
+}
+
