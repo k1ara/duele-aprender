@@ -1,0 +1,12 @@
+blockquote
+{
+    background: url(imagenes/openquote1.gif) top left;
+    background: url(imagenes/closequote1.gif) bottom right;
+    background-repeat: no-repeat;
+    border: 1px solid red;
+    text-indent: 30px;
+    text-align: left;
+    font-size: 16px;
+    padding: 0px;
+
+}
